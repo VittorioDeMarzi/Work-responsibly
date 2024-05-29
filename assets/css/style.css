@@ -1,0 +1,79 @@
+/* BASIC STYLING */
+@font-face {
+  font-family: roboto;
+  src: url("../font/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: roboto;
+  background-color: rgba(238, 238, 238, 1);
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 0 5vw;
+  padding-top: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* ! HEADER */
+
+nav {
+  font-size: 14px;
+  margin-bottom: 100px;
+  margin-left: -2vw;
+}
+
+nav a {
+  color: rgba(101, 157, 137, 1);
+  padding: 10px 2vw;
+}
+
+nav a:hover {
+  color: rgb(19, 93, 67);
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+h1 span {
+  color: rgba(101, 157, 137, 1);
+}
+
+header section {
+  text-align: right;
+  margin-bottom: 70px;
+}
+
+header img {
+  display: block;
+  margin: 0 0 3px auto;
+}
+
+header p {
+  color: rgba(102, 102, 102, 1);
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+/* ! MAIN */
