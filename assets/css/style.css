@@ -13,7 +13,6 @@
 html {
   font-family: roboto;
   background-color: rgba(238, 238, 238, 1);
-
 }
 
 img {
@@ -28,7 +27,7 @@ a {
 .wrapper {
   padding: 0 5vw;
   padding-top: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
 
 /* ! HEADER */
@@ -74,7 +73,10 @@ header p {
 }
 
 header {
-  border-bottom: 1px solid rgba(204, 204, 204, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 5vw;
+  padding-top: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* ! MAIN */
@@ -82,25 +84,28 @@ header {
 /* What's your struggle */
 
 .struggle h2 {
-font-size: 20px;
-font-weight: 400;
-margin-bottom: 15px;
-margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .struggle article {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .gifs {
-    text-align: center;
-    padding-bottom: 50px;
-    width: 90%;
-    margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .feeling {
-    width: 27%;
-    max-width: 380px;
-    margin: 1vw 2vw 2vw 1vw;
+  width: 27%;
+  max-width: 380px;
+  margin: 1vw 1vw 1vw 1vw;
+}
+.struggle {
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
