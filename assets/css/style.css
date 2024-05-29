@@ -13,7 +13,7 @@
 html {
   font-family: roboto;
   background-color: rgba(238, 238, 238, 1);
-  font-weight: 400;
+
 }
 
 img {
@@ -51,6 +51,7 @@ nav a:hover {
 h1 {
   font-size: 50px;
   margin-bottom: 50px;
+  font-weight: 400;
 }
 
 h1 span {
@@ -77,3 +78,29 @@ header {
 }
 
 /* ! MAIN */
+
+/* What's your struggle */
+
+.struggle h2 {
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 15px;
+margin-top: 30px;
+}
+
+.struggle article {
+    margin-bottom: 70px;
+}
+
+.gifs {
+    text-align: center;
+    padding-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.feeling {
+    width: 27%;
+    max-width: 380px;
+    margin: 1vw 2vw 2vw 1vw;
+}
