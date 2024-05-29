@@ -109,3 +109,39 @@ header {
 .struggle {
   border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
+
+/* Features resources */
+
+#resourcesP {
+  margin-bottom: 95px;
+  margin-top: 30px;
+}
+
+.features-left {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto 100px 50px;
+}
+
+.features-right {
+  width: 60%;
+  text-align: center;
+  margin: 0 50px 100px auto;
+}
+
+.features img {
+  /* max-width: 600px; */
+  margin-bottom: 18px;
+}
+
+.features p {
+  font-size: 12px;
+  color: rgba(102, 102, 102, 1);
+}
+
+main section .img-description {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
