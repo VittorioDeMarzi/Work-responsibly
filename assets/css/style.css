@@ -26,8 +26,8 @@ a {
 
 .wrapper {
   padding: 0 5vw;
-  padding-top: 20px;
   border-bottom: 1px solid rgba(204, 204, 204, 1);
+  margin-bottom: 50px;
 }
 
 /* ! HEADER */
@@ -36,6 +36,7 @@ nav {
   font-size: 14px;
   margin-bottom: 100px;
   margin-left: -2vw;
+  padding-top: 20px;
 }
 
 nav a {
@@ -67,16 +68,21 @@ header img {
   margin: 0 0 3px auto;
 }
 
+header img:hover {
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.336));
+}
+
 header p {
   color: rgba(102, 102, 102, 1);
   margin-bottom: 100px;
 }
 
+header p:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
 header {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 0 5vw;
-  padding-top: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.305);
 }
 
 /* ! MAIN */
@@ -87,7 +93,6 @@ header {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 15px;
-  margin-top: 30px;
 }
 
 .struggle article {
@@ -101,13 +106,14 @@ header {
   margin: 0 auto;
 }
 
-.feeling {
+.gifs img {
   width: 27%;
   max-width: 380px;
   margin: 1vw 1vw 1vw 1vw;
 }
-.struggle {
-  border-bottom: 1px solid rgba(204, 204, 204, 1);
+
+main img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.608);
 }
 
 /* Features resources */
@@ -144,4 +150,30 @@ main section .img-description {
   font-size: 16px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+main section:last-child {
+  padding-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+  color: rgba(102, 102, 102, 1);
+  text-align: center;
+}
+
+footer a {
+  color: rgba(102, 102, 102, 1);
+  padding-top: 20px;
+  margin-bottom: 70px;
+}
+
+footer a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+footer aside {
+  font-size: 12px;
+  padding-bottom: 30px;
 }
